@@ -10,11 +10,11 @@ Input files for iterative Deep Potential model training using DP-GEN and DeepMD-
 
 The directory contains the following main files:
 
-- `param.json`: Main DP-GEN parameter file defining the iterative training workflow.
-- `machine.json`: Machine configuration file for DP-GEN calculations.
-- `INCAR_scf`: VASP INCAR template for self-consistent first-principles calculations.
-- `POTCAR_Hf`, `POTCAR_Zr`, and `POTCAR_O`: VASP PAW potential files for Hf, Zr, and O, respectively.
-- `dpgen.log`: Log file generated during the DP-GEN iterative training workflow.
+* `param.json`: Main DP-GEN parameter file defining the iterative training workflow.
+* `machine.json`: Machine configuration file for DP-GEN calculations.
+* `INCAR_scf`: VASP INCAR template for self-consistent first-principles calculations.
+* `POTCAR_Hf`, `POTCAR_Zr`, and `POTCAR_O`: VASP PAW potential files for Hf, Zr, and O, respectively.
+* `dpgen.log`: Log file generated during the DP-GEN iterative training workflow.
 
 ### `HZO_model.pb`
 
